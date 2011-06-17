@@ -1,6 +1,6 @@
 To set up and run Awoochi locally:
 
-1. $ git clone git@github.com:drusepth/Awoochi.git
+1. $ git pull git@github.com:drusepth/Awoochi.git
 2. $ rake db:migrate
 3. $ script/server
 4. Navigate to http://localhost:3000/
