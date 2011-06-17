@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body {
+	background-color: #1179A4;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQIW2MUrFzynwEK/jy+ycAIEwBxWGTVIQIwDkghI29M7X+QDAwAALXVEXFxIcF1AAAAAElFTkSuQmCC);
+}
+h1 {
+	font-family: "CorbelRegular", "Helvetica Neue", Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #333;
+	font-size: 24px;
+	color: #333;
+	margin-top: 24px;
+	background: #b1d4e5;
+	width: 660px;
+	margin-left: -10px;
+	display: none;
+}
+h2 {
+	font-family: "CorbelRegular", "Helvetica Neue", Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #000000;
+	font-size: 22px;
+	color: #000000;
+	text-align: center;
+	display: none;
+}
+#content {
+	width: 960px;
+	height: 300px;
+	margin-top: 76px;
+	float: left;
+	border-top: 1px solid #FFFFFF;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, #DDDDDD),
+    color-stop(0.3, #FFFFFF),
+    color-stop(0.75, #FFFFFF)
+);
+xbackground-image: -moz-linear-gradient(
+    center bottom,
+    #DDDDDD 100%,
+    #FFFFFF 30%,
+    #FFFFFF 75%
+);
+}
+#top {
+	width: 764px; /* -16px for padding */
+	height: 50px;
+	background-color: #eef0f3;
+	list-style: none;
+	padding-left: 16px;
+	border-bottom: 1px solid #00B0D8;
+	border-top: 10px solid #eef0f3;
+	margin-bottom: 20px;
+}
+#top li {
+	float: left;
+	font: 11px Helvetica Neue, Arial, Helvetica;
+	color: #85898F;
+	line-height: 50px;
+	margin-right: 50px;
+}
+#top #login {
+	background: #00B0D8;
+	color: white !important;
+	text-align: center;
+	margin-right: 0px;
+	float: right;
+	width: 100px;
+}
+#wrapper {
+	width: 960px;
+	height: 1200px;
+	background-color: #3E91B4;
+	margin: 0 auto;
+	-webkit-border-radius: 10px;
+}
+#navi_bar {
+	background-color: #1F1F1F;
+	height: 37px;
+	border-bottom: 3px solid #181818;
+	margin-bottom: 80px;
+}
+#inner_bar {
+	width: 960px;
+	height: 37px;
+	margin: 0 auto;
+	list-style: none;
+	font: 11px Helvetica Neue, Arial, Helvetica;
+}
+	#inner_bar li {
+		float: left;
+		color: #F6EDD9;
+		line-height: 37px;
+		margin-right: 10px;
+	}
+	#inner_bar li:after {
+		content: "|";
+		color: red;
+		margin-left: 10px;
+	}
+	#inner_bar li:last-child:after {
+		content: "";
+	}
+#logo {
+	width: 298px;
+	height: 90px;
+	margin-left: 38px;
+	margin-top: 76px;
+	background: url(/images/298x90_logo.png);
+	float: left;
+}
+#navi_wrapper {
+	width: 548px;
+	height: 21px;
+	float: left;
+	margin-left: 38px;
+	margin-top: 110px; /* 76 + 34.5 (No half pixels. Damn it) = 110 */
+}
+#navigation {
+	list-style: none;
+}
+#block1 a {height: 21px;width: 147px;display: block;float:left;background: url(/images/434x21_navigation.png) 0 0;} /* Fuck CSS */
+#block2 a {height: 21px;width: 139px;display: block;float:left;background: url(/images/434x21_navigation.png) -147px 0;margin-left: 38px;}
+#block3 a {height: 21px;width: 092px;display: block;float:left;background: url(/images/434x21_navigation.png) -286px 0;margin-left: 38px;}
+#block4 a {height: 21px;width: 056px;display: block;float:left;background: url(/images/434x21_navigation.png) -378px 0;margin-left: 38px;}
+
+#block1 a:hover {background: url(/images/434x21_navigation.png)      0 -21px;}
+#block2 a:hover {background: url(/images/434x21_navigation.png) -147px -21px;}
+#block3 a:hover {background: url(/images/434x21_navigation.png) -286px -21px;}
+#block4 a:hover {background: url(/images/434x21_navigation.png) -378px -21px;}

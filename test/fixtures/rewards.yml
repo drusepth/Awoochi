@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  achievement_id: 1
+  type: MyString
+  amount: 1
+
+two:
+  achievement_id: 1
+  type: MyString
+  amount: 1

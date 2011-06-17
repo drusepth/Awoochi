@@ -1,0 +1,24 @@
+<h1>Editing reward</h1>
+
+<% form_for(@reward) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :achievement_id %><br />
+    <%= f.text_field :achievement_id %>
+  </p>
+  <p>
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </p>
+  <p>
+    <%= f.label :amount %><br />
+    <%= f.text_field :amount %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @reward %> |
+<%= link_to 'Back', rewards_path %>

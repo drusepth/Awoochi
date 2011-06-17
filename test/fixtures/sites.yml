@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  account_id: 1
+  name: MyString
+  url: MyString
+  api_token: MyString
+
+two:
+  account_id: 1
+  name: MyString
+  url: MyString
+  api_token: MyString

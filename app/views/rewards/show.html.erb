@@ -1,0 +1,18 @@
+<p>
+  <b>Achievement:</b>
+  <%=h @reward.achievement_id %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @reward.type %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%=h @reward.amount %>
+</p>
+
+
+<%= link_to 'Edit', edit_reward_path(@reward) %> |
+<%= link_to 'Back', rewards_path %>

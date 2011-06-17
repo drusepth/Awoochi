@@ -1,0 +1,24 @@
+<h1>Editing achievement</h1>
+
+<% form_for(@achievement) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :site_id %><br />
+    <%= f.text_field :site_id %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @achievement %> |
+<%= link_to 'Back', achievements_path %>

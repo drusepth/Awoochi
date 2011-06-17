@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<%= stylesheet_link_tag 'application' %>
+</head>
+<body>
+	<div id="navi_bar">
+		<ul id="inner_bar">
+		  <li>Download starter packs for:</li>
+			<li><a href="/downloads/wordpress">Wordpress</a></li>
+			<li><a href="/downloads/drupal">Drupal</a></li>
+			<li><a href="/downloads/joomla">Joomla</a></li>
+			<li><a href="/downloads/phpbb">PHPBB</a></li>
+		</ul>
+	</div>
+
+<div id="wrapper">
+	<a href="/"><div id="logo"></div></a>
+
+	<div id="navi_wrapper">
+		<ul id="navigation">
+			<li id="block1"><a href="/pages/getting-started"></a></li>
+			<li id="block2"><a href="/docs/index"></a></li>
+			<li id="block3"><a href="/pages/showcase"></a></li>
+			<li id="block4"><a href="/pages/about"></a></li>
+		</ul>
+	</div>
+
+	<div id="content"><%= yield %></div>
+</div>
+</body>
+</html>

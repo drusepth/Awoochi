@@ -1,0 +1,13 @@
+<p>
+  <b>User:</b>
+  <%=h @unlock.user_id %>
+</p>
+
+<p>
+  <b>Achievement:</b>
+  <%=h @unlock.achievement_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_unlock_path(@unlock) %> |
+<%= link_to 'Back', unlocks_path %>

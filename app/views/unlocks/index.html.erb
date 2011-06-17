@@ -1,0 +1,22 @@
+<h1>Listing unlocks</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Achievement</th>
+  </tr>
+
+<% @unlocks.each do |unlock| %>
+  <tr>
+    <td><%=h unlock.user_id %></td>
+    <td><%=h unlock.achievement_id %></td>
+    <td><%= link_to 'Show', unlock %></td>
+    <td><%= link_to 'Edit', edit_unlock_path(unlock) %></td>
+    <td><%= link_to 'Destroy', unlock, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New unlock', new_unlock_path %>
