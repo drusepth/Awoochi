@@ -2,11 +2,13 @@
 <html>
 <head>
 <%= stylesheet_link_tag 'application' %>
+<%= javascript_include_tag 'jquery.tools.min' %>
+<%= javascript_include_tag 'application' %>
 </head>
 <body>
 	<div id="navi_bar">
 		<ul id="inner_bar">
-		  <li>Download starter packs for:</li>
+			<li>Download starter packs for:</li>
 			<li><a href="/downloads/wordpress">Wordpress</a></li>
 			<li><a href="/downloads/drupal">Drupal</a></li>
 			<li><a href="/downloads/joomla">Joomla</a></li>
@@ -19,10 +21,10 @@
 
 	<div id="navi_wrapper">
 		<ul id="navigation">
-			<li id="block1"><a href="/pages/getting-started"></a></li>
-			<li id="block2"><a href="/docs/index"></a></li>
-			<li id="block3"><a href="/pages/showcase"></a></li>
-			<li id="block4"><a href="/pages/about"></a></li>
+			<li id="block1"><a href="/pages/getting-started" title="Sign up to get started"></a></li>
+			<li id="block2"><a href="/docs/index" title="Be amazed at what we can do"></a></li>
+			<li id="block3"><a href="/pages/showcase" title="See our early adopter gallery"></a></li>
+			<li id="block4"><a href="/pages/about" title="Find out more about us"></a></li>
 		</ul>
 	</div>
 

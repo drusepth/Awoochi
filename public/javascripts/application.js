@@ -1,2 +1,7 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+$(document).ready(function() {
+	$("#navigation li a[title]").tooltip({
+		effect: 'toggle', // or 'fade'
+		offset: [-10, 0],
+		tipClass: 'nav-tooltip'
+	});
+});
