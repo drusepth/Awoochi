@@ -1793,3 +1793,33 @@ ActionController::RoutingError (No route matches "/login" with {:method=>:get}):
   /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-06-20 20:45:02) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 144ms (View: 138, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-06-20 20:45:04) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 40ms (View: 33, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing LoginController#register (for 127.0.0.1 at 2011-06-20 20:49:38) [GET]
+Rendering template within layouts/application
+Rendering login/register
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/login/register]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-06-20 20:50:56) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 25ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 20:51:06) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 88ms (View: 72, DB: 0) | 200 OK [http://localhost/pages/getting-started]
