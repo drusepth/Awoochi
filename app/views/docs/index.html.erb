@@ -1,5 +1,43 @@
-<h3>Awoochi Documentation Overview</h3>
+<h3>This API is currently undergoing beta testing!</h3>
 <p>
-	The Awoochi API comes in many shapes and sizes and this is an overview of it, blah 
+  This platform is still under construction and being documented. Until official release, 
+  use at your own risk. Tables WILL be dropped and data WILL be deleted.
+</p>
+<p>
+  The intended official release date is: <strong>Monday, June 27, 2011</strong>
 </p>
 
+<h3>Interacting with the API</h3>
+<p>
+  In order to provide as many interaction points as possible to developers, we've created
+  our API to be delivered in many formats. Given a sample request, such as 
+
+  <code class="block">GET /api/info</code>
+  
+  The result can be returned in a specified format by appending one of the following file extensions:
+  <ul>
+    <li><code>/info</code> - <a href="/docs/json">JSON</a></li>
+    <li><code>/info.json</code> - <a href="/docs/json">JSON</a></li>
+    <li><code>/info.xml</code> - <a href="/docs/xml">XML</a></li>
+  </ul>
+</p>
+
+<h3>Supported API Functions</h3>
+<p>
+  Although each languages' <a href="/docs/libraries">downloadable library</a> will have functions 
+  and usage specific to the language, the following JSON/XML requests serve as the general layout
+  for what can be accomplished via the Awoochi API. 
+</p>
+<ul>
+  <li><a href="/docs/site/info"><code>/api/site/info</code></a></li>
+  <li><a href="/docs/achievements/list"><code>/api/achievements/list</code></a></li>
+  <li><a href="/docs/achievements/info"><code>/api/achievements/info</code></a></li>
+  <li><a href="/docs/achievements/create"><code>/api/achievements/create</code></a></li>
+  <li><a href="/docs/achievements/delete"><code>/api/achievements/delete</code></a></li>
+  <li><a href="/docs/achievements/earn"><code>/api/achievements/earn</code></a></li>
+  <li><a href="/docs/users/list"><code>/api/users/list</code></a></li>
+  <li><a href="/docs/users/info"><code>/api/users/info</code></a></li>
+  <li><a href="/docs/users/create"><code>/api/users/create</code></a></li>
+  <li><a href="/docs/users/delete"><code>/api/users/delete</code></a></li>
+  <li><a href="/docs/users/search"><code>/api/users/search</code></a></li>
+</ul>

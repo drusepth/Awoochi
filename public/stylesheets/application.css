@@ -175,3 +175,11 @@ xbackground-image: -moz-linear-gradient(
 .stretch {
 	width: 100%;
 }
+
+.block {
+	display: block;
+	background: #ccf;
+	padding: 10px;
+	margin: 5px;
+	border: 1px dashed #ffc;
+}
