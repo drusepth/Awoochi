@@ -7,6 +7,13 @@
 a {
   text-decoration: none;
 }
+ol, ul {
+	margin-left: 50px;
+}
+
+p {
+	margin-bottom: 20px;
+}
 body {
 	background-color: #1179A4;
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQIW2MUrFzynwEK/jy+ycAIEwBxWGTVIQIwDkghI29M7X+QDAwAALXVEXFxIcF1AAAAAElFTkSuQmCC);
@@ -30,10 +37,17 @@ h2 {
 	text-align: center;
 	display: none;
 }
+h3 {
+	background-color: #3E91B4;
+	color: #FFFFFF;
+	padding: 5px;
+	border-top: 1px solid #00a;
+	margin-bottom: 10px;
+}
 #content {
 	width: 920px;
-	height: 300px;
-	margin-top: 76px;
+	min-height: 300px;
+	margin-top: 20px;
 	float: left;
 	padding: 20px;
 	border-top: 1px solid #FFFFFF;
@@ -79,7 +93,7 @@ xbackground-image: -moz-linear-gradient(
 }
 #wrapper {
 	width: 960px;
-	height: 1200px;
+	height: 230px;
 	background-color: #3E91B4;
 	margin: 0 auto;
 	-webkit-border-radius: 10px;
@@ -131,6 +145,7 @@ xbackground-image: -moz-linear-gradient(
 }
 #navigation {
 	list-style: none;
+	margin-left: 0px;
 }
 #block1 a {height: 21px;width: 147px;display: block;float:left;background: url(/images/434x21_navigation.png) 0 0;} /* Fuck CSS */
 #block2 a {height: 21px;width: 139px;display: block;float:left;background: url(/images/434x21_navigation.png) -147px 0;margin-left: 38px;}
@@ -149,4 +164,14 @@ xbackground-image: -moz-linear-gradient(
 	width: 125px;
 	color: #ddd;
 	padding: 10px;
+}
+
+.imagebullet {
+	float: left;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+.stretch {
+	width: 100%;
 }

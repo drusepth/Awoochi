@@ -1823,3 +1823,1039 @@ Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 20:51:06
 Rendering template within layouts/application
 Rendering pages/getting-started
 Completed in 88ms (View: 72, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+  [4;36;1mSQL (2.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateAccounts (20110617100622)
+Migrating to CreateSites (20110617101135)
+Migrating to CreateUsers (20110617101252)
+Migrating to CreateAchievements (20110617101340)
+Migrating to CreateUnlocks (20110617101404)
+Migrating to CreateRewards (20110617101452)
+  [4;36;1mSQL (52.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("accounts")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("achievements")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("rewards")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("sites")[0m
+  [4;36;1mSQL (8.6ms)[0m   [0;1mPRAGMA index_list("unlocks")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:02:38) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:03:47) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:03:49) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 151ms (View: 143, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:03:50) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:04:13) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:05:08) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 28ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:05:09) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:06:04) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:06:11) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 33ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:06:24) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:06:30) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:06:43) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:06:50) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:07:17) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:07:31) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:07:41) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:07:56) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:08:10) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:08:16) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:08:23) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:08:30) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:09:13) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 27ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:09:48) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 36ms (View: 21, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:10:20) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:10:25) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:10:40) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:10:44) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:11:07) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:11:15) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:13:07) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:13:35) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 25ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:13:53) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 165ms (View: 158, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:15:44) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 27ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:16:04) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 26ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:16:18) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:18:35) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 27ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:18:43) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:18:50) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:19:16) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:19:26) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 31ms (View: 21, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:19:48) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:20:05) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:20:27) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:20:57) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:21:08) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:21:37) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 27ms (View: 21, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:22:02) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:22:19) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:22:27) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:22:37) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:22:45) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:22:54) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 31ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:23:02) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:23:11) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:23:24) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:23:35) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:23:39) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:24:25) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:24:32) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:24:44) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:24:53) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:26:35) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:26:39) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:27:03) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:28:01) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 45ms (View: 33, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:28:56) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:28:57) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:30:47) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:35:06) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 36ms (View: 21, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:37:39) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 42ms (View: 35, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:41:01) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:41:33) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 30ms (View: 23, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:42:07) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 39ms (View: 30, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:42:27) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 29ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:42:36) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:42:45) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 37ms (View: 29, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:43:33) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 30ms (View: 24, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:43:46) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#dashboard (for 127.0.0.1 at 2011-06-20 21:45:19) [GET]
+
+ActionController::UnknownAction (No action responded to dashboard. Actions: about, getting_started, index, and showcase):
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:45:24) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 32ms (View: 24, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:45:27) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 26ms (View: 19, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:45:29) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:45:44) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:45:46) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:45:48) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:45:50) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:46:14) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 27ms (View: 19, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:46:58) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:50:24) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 40ms (View: 34, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-20 21:50:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/website.png" with {:method=>:get}):
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:50:32) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 28ms (View: 22, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:50:48) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 32ms (View: 23, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:51:14) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 26ms (View: 21, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:52:07) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:52:23) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:52:37) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:52:51) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 30ms (View: 24, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:53:13) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 32ms (View: 23, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:53:41) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 27ms (View: 21, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:53:49) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:54:06) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 36ms (View: 26, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:54:22) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 36ms (View: 27, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:54:44) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:54:48) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:54:54) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:55:05) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:55:32) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 159ms (View: 11, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:56:47) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 46ms (View: 36, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:57:06) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 19ms (View: 13, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:58:11) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:58:38) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 34ms (View: 28, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:59:36) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 52ms (View: 41, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:59:39) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 407ms (View: 391, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 21:59:41) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:59:43) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 24ms (View: 15, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 21:59:58) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 34ms (View: 26, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:00:34) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 35ms (View: 27, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:00:55) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 181ms (View: 28, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:01:55) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:01:56) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:02:13) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:03:01) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 39ms (View: 30, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:03:21) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 27ms (View: 20, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:03:23) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:03:29) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 19ms (View: 10, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:03:31) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:04:04) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 33ms (View: 28, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:04:13) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 44ms (View: 35, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:04:22) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 49ms (View: 40, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:04:44) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 35ms (View: 29, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:05:42) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 38ms (View: 30, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:05:55) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/docs/index]
+
+
+Processing DocsController#website (for 127.0.0.1 at 2011-06-20 22:06:00) [GET]
+
+ActionController::UnknownAction (No action responded to website. Actions: index):
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocsController#xml (for 127.0.0.1 at 2011-06-20 22:06:03) [GET]
+
+ActionController::UnknownAction (No action responded to xml. Actions: index):
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:06:06) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/docs/]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:09:14) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 93ms (View: 78, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:09:25) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 37ms (View: 30, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:10:17) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 64ms (View: 48, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:10:40) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 39ms (View: 32, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:11:01) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 35ms (View: 30, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:11:41) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 187ms (View: 180, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:11:59) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 66ms (View: 60, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:13:19) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 35ms (View: 29, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:15:33) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 68ms (View: 57, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:16:38) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 114ms (View: 97, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:18:32) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 59ms (View: 46, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:19:15) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 41ms (View: 34, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:19:45) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 38ms (View: 32, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:21:53) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 40ms (View: 35, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:22:14) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 45ms (View: 35, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:22:33) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 101ms (View: 95, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:22:41) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 41ms (View: 33, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:23:08) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 49ms (View: 39, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:23:53) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 36ms (View: 31, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:25:25) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 44ms (View: 37, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#drupal (for 127.0.0.1 at 2011-06-20 22:25:45) [GET]
+
+ActionController::UnknownAction (No action responded to drupal. Actions: index):
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/drusepth/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:27:38) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 39ms (View: 32, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing PagesController#getting-started (for 127.0.0.1 at 2011-06-20 22:28:03) [GET]
+Rendering template within layouts/application
+Rendering pages/getting-started
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/getting-started]
+
+
+Processing DocsController#index (for 127.0.0.1 at 2011-06-20 22:28:04) [GET]
+Rendering template within layouts/application
+Rendering docs/index
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/docs/index]
