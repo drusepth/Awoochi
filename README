@@ -4,3 +4,15 @@ To set up and run Awoochi locally:
 2. $ rake db:migrate
 3. $ script/server
 4. Navigate to http://localhost:3000/
+
+If you're a Ruby/Rails developer, most of the code you'll be working with will
+be in app/controllers, app/models, and app/views.
+
+If you're a designer, you'll probably be working in public/stylesheets, 
+/public/javascripts, and /app/views.
+
+If you're developing libraries in other languages, you'll probably want to make
+a directory in /libraries.
+
+If you're developing plugins for sites like Wordpress, you'll probably want to
+make a directory in /plugins.
