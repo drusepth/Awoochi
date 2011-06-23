@@ -32,6 +32,11 @@ class AccountsController < ApplicationController
     end
   end
 
+  # GET /accounts/login
+  def login
+
+  end
+
   # GET /accounts/1/edit
   def edit
     @account = Account.find(params[:id])
